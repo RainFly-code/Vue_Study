@@ -10,6 +10,11 @@ import {
 //配置路由规则对象数组
 const routes = [
   {
+    path: "/home",
+    name: "home",
+    component: () => import("../views/Home.vue"),
+  },
+  {
     path: "",
     redirect: "/findMusic",
   },

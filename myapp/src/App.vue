@@ -2,7 +2,7 @@
    <!-- <div>获取meta内容{{ $router }}</div> -->
    
    <!-- 加入vue的路由访问链接 -->
-    <div class="menu">
+    <!-- <div class="menu">
       <div class="menu-container">
         <img src="./assets/logo.png" alt="网站Logo" class="logo" />
         <div class="nav-links">
@@ -12,9 +12,8 @@
           <RouterLink to="/musician">音乐人</RouterLink>
         </div>
       </div>
-    </div>
-
-
+    </div> -->
+    <RouterLink to="/home">首页</RouterLink>
    <!-- 路由的总出口 必填项 哪个页面是父组件，就在哪个vue里面编写出口 -->
    <RouterView></RouterView> 
 </template>
